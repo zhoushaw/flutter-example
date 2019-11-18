@@ -5,7 +5,6 @@ import 'dart:convert';
 class HttpGet extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return HttpGetState();
   }
 }
@@ -37,7 +36,6 @@ class HttpGetState extends State<HttpGet> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       appBar: AppBar(title: Text('Retrieve JSON Data via HTTP GET')),
       body: ListView.builder(

@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 class TabView extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return TabViewState();
   }
 }
@@ -14,14 +13,12 @@ class TabViewState extends State<TabView> with SingleTickerProviderStateMixin {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     controller = TabController(length: 2,vsync: this);
   }
   
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
 
     return Scaffold(
       appBar: AppBar(

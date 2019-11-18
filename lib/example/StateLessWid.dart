@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class StateLessWid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     var column = Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
@@ -34,7 +33,6 @@ class MyCard extends StatelessWidget {
   MyCard(this.title, this.icon);
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Container(
       child: Card(
         child: Container(

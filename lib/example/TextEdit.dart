@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class TextEdit extends StatefulWidget {
   @override
   TextEditState createState() {
-    // TODO: implement createState
     return TextEditState();
   }
 }
@@ -14,7 +13,6 @@ class TextEditState extends State<TextEdit> {
   TextEditingController textController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       appBar: AppBar(title: Text('文本编辑')),
       body: Container(

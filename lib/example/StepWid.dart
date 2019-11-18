@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class StepWid extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return StepWidState();
   }
 }
@@ -13,7 +12,6 @@ class StepWidState extends State<StepWid> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
 
     return Scaffold(
       appBar: AppBar(title: Text('步骤')),

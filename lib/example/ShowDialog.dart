@@ -7,7 +7,6 @@ class ShowDialog extends StatelessWidget {
       content: Text('hello world', style: TextStyle(fontSize: 30),)
     );
 
-    // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: Text('展示弹窗'),
