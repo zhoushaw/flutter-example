@@ -1,4 +1,8 @@
+import 'package:example/example/AlertDemo.dart';
+import 'package:example/example/FutureCom.dart';
 import 'package:example/example/HttpGet.dart';
+import 'package:example/example/PointerEventDemo.dart';
+import 'package:example/example/Provider/ProviderRoute.dart';
 import 'package:example/example/ShowDialog.dart';
 import 'package:example/example/StateLessWid.dart';
 import 'package:example/example/StepWid.dart';
@@ -15,6 +19,10 @@ void main() {
       title: 'Flutter',
       routes: {
         'toDolist': (context) => new ToDoList(),
+        'providerRoute': (context) => new ProviderRoute(),
+        'pointerEvent': (context) => new PointerEventDemo(),
+        'alertDemo': (context) => new AlertDemo(),
+        'futureCom': (context) => new FutureCom(),
         'changeText': (context) => new ChangeText(),
         'useTheme': (context) => new UseTheme(),
         'lessWid': (context) => new StateLessWid(),
@@ -39,6 +47,22 @@ class MyApp extends StatelessWidget {
       {
         'title': '待办事项',
         'route': 'toDolist'
+      },
+      {
+        'title': '数据共享',
+        'route': 'providerRoute'
+      },
+      {
+        'title': '异步UI组件',
+        'route': 'futureCom'
+      },
+      {
+        'title': '手势',
+        'route': 'pointerEvent'
+      },
+      {
+        'title': '弹窗',
+        'route': 'alertDemo'
       },
       {
         'title': '数据响应',

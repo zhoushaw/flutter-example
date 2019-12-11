@@ -68,7 +68,7 @@ class ToDoListState extends State<ToDoList> {
                 style: TextStyle(
                     fontSize: 20,
                     height: 1,
-                    color: Color(0xFF4d4d4d),
+                    color: Color(0xaa4d4d4d),
                     decoration:
                         item.isSelect ? TextDecoration.lineThrough : null)),
           ),
